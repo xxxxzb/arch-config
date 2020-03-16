@@ -82,19 +82,19 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *chromiumcmd[]  = { "chromium", NULL };
 static const char *firefoxcmd[]  = { "firefox", NULL };
 
-static const char *upvol[]   = { "/home/xzb/dwm-scripts/vol-up.sh",  NULL };
-static const char *downvol[] = { "/home/xzb/dwm-scripts/vol-down.sh",  NULL };
-static const char *mutevol[] = { "/home/xzb/dwm-scripts/vol-toggle.sh",  NULL };
+static const char *upvol[]   = { "/home/xzb/scripts/vol-up.sh",  NULL };
+static const char *downvol[] = { "/home/xzb/scripts/vol-down.sh",  NULL };
+static const char *mutevol[] = { "/home/xzb/scripts/vol-toggle.sh",  NULL };
 
-static const char *wpcmd[]  = { "/home/xzb/dwm-scripts/wp-change.sh", NULL };
-static const char *sktogglecmd[]  = { "/home/xzb/dwm-scripts/sck-tog.sh", NULL };
+static const char *wpcmd[]  = { "/home/xzb/scripts/wp-change.sh", NULL };
+static const char *sktogglecmd[]  = { "/home/xzb/scripts/sck-tog.sh", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x24", NULL };
 
-static const char *setworkmancmd[]  = { "/home/xzb/dwm-scripts/setxmodmap-workman.sh", NULL };
-static const char *setqwertycmd[]  = { "/home/xzb/dwm-scripts/setxmodmap-qwerty.sh", NULL };
+static const char *setworkmancmd[]  = { "/home/xzb/scripts/setxmodmap-workman.sh", NULL };
+static const char *setqwertycmd[]  = { "/home/xzb/scripts/setxmodmap-qwerty.sh", NULL };
 
-static const char *suspendcmd[]  = { "/home/xzb/dwm-scripts/suspend.sh", NULL };
+static const char *suspendcmd[]  = { "/home/xzb/scripts/suspend.sh", NULL };
 
 static Key keys[] = {
 	/* modifier            key                      function        argument */
