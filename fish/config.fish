@@ -7,6 +7,6 @@ end
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-export PATH="$HOME/App/qemu-4.1.1/riscv32-softmmu:$HOME/App/qemu-4.1.1/riscv64-softmmu:$PATH"
+#export PATH="$HOME/App/qemu-4.1.1/riscv32-softmmu:$HOME/App/qemu-4.1.1/riscv64-softmmu:$PATH"
 
  set VISUAL nvim; export VISUAL EDITOR=nvim; export EDITOR
