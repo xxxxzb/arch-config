@@ -1,0 +1,173 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 18,
+
+    
+    "vim.leader": "<space>",
+     "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["r"],
+      "after": ["k"]
+    },
+    {
+      "before": ["n"],
+      "after": ["h"]
+    },
+    {
+      "before": ["i"],
+      "after": ["j"]
+    },
+    {
+      "before": ["o"],
+      "after": ["l"]
+    },
+    {
+      "before": ["R"],
+      "after": ["5","k"]
+    },
+    {
+      "before": ["I"],
+      "after": ["5","j"]
+    },
+    {
+      "before": ["N"],
+      "after": ["0"]
+    },
+    {
+      "before": ["O"],
+      "after": ["$"]
+    },
+    {
+      "before": ["l"],
+      "after": ["o"]
+    },
+    {
+      "before": ["L"],
+      "after": ["O"]
+    },
+    {
+      "before": ["k"],
+      "after": ["r"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    {
+      "before": ["H"],
+      "after": ["I"]
+    },
+    {
+      "before": ["m"],
+      "after": ["u"]
+    },
+    {
+      "before": ["M"],
+      "after": ["<c-r>"]
+    },
+    {
+      "before": ["u"],
+      "after": ["r"]
+    },
+    {
+      "before": ["W"],
+      "after": ["3w"]
+    },
+    {
+      "before": ["="],
+      "after": ["n"]
+    },
+    {
+      "before": ["-"],
+      "after": ["N"]
+    },
+
+
+
+    {
+      "before": ["q"],
+      "commands": [":q"]
+    },
+    {
+      "before": ["s"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>","<cr>"],
+      "commands": [":nohl"]
+    }
+  ],
+
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["i", "i"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<c-e>"],
+      "after": ["<Esc>","A"]
+    },
+  ],
+
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["r"],
+      "after": ["k"]
+    },
+    {
+      "before": ["n"],
+      "after": ["h"]
+    },
+    {
+      "before": ["i"],
+      "after": ["j"]
+    },
+    {
+      "before": ["o"],
+      "after": ["l"]
+    },
+    {
+      "before": ["R"],
+      "after": ["5","k"]
+    },
+    {
+      "before": ["I"],
+      "after": ["5","j"]
+    },
+    {
+      "before": ["N"],
+      "after": ["0"]
+    },
+    {
+      "before": ["O"],
+      "after": ["$"]
+    },
+  ],
+
+      "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#8FBCBB",
+      "statusBar.noFolderBackground": "#8FBCBB",
+      "statusBar.debuggingBackground": "#8FBCBB",
+      "statusBar.foreground": "#434C5E"
+    },
+    "files.autoSave": "afterDelay",
+
+}
