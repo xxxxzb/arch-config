@@ -1,16 +1,19 @@
-clear mod5
+!clear mod5
 clear control
 clear lock
+clear shift
 
 
-!ctrl_l
+!Ctrl_L
 keycode  37 = Caps_Lock NoSymbol Caps_Lock
-!alt_r
-keycode 108 = Escape NoSymbol Escape
-!cap_lock
+
+!Shift_R
+keycode 62 = Escape NoSymbol Escape
+
+!Cap_Lock
 keycode  66 = Control_L NoSymbol Control_L
 
 
-add mod5 = ISO_Level3_Shift Mode_switch
+!add mod5 = ISO_Level3_Shift Mode_switch
 add control = Control_L Control_R
 
